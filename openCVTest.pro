@@ -26,10 +26,10 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
 
 HEADERS += \
-        mainwindow.h
+    mainwindow.h
 
 FORMS += \
         mainwindow.ui
@@ -60,3 +60,12 @@ LIBS += /usr/local/lib/libopencv_highgui.so \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+DISTFILES += \
+    res/12.jpg \
+    res/cat.jpg \
+    res/test1.jpeg \
+    res/test2.jpg \
+    res/test3.jpg \
+    res/test4.jpeg \
+    res/vtest.avi
