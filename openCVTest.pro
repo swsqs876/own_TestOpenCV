@@ -1,6 +1,9 @@
 #-------------------------------------------------
 #
 # Project created by QtCreator 2019-01-19T15:14:41
+# Book: Learning-OpenCV-3(学习opencv3中文版)
+# examples: https://github.com/swsqs876/Learning-OpenCV-3_examples
+# own: https://github.com/swsqs876/own_TestOpenCV
 #
 #-------------------------------------------------
 
