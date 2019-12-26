@@ -1,0 +1,10 @@
+编译报错
+ fatal error: boostdesc_bgm.i: 没有那个文件或目录            #include "boostdesc_bgm.i"
+
+解决方法：https://blog.csdn.net/AlexWang30/article/details/99612188
+
+将缺少的文件拷贝到opencv_contrib/modules/xfeatures2d/src/目录下：https://pan.baidu.com/s/1SmRMg_aydPYOJ1jKNjGZPw   提取码：z7dp 
+
+
+
+kg-config --cflags --libs opencv
